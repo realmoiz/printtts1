@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF0000;
+    --primary: #06A3DA;
     --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
@@ -166,6 +166,12 @@ h6,
    display: block;
 }
 
+.ddd{padding: 0 20px; color: #fff; word-break: break-word;}
+.ddd:hover{ color: #fff;}
+
+.cntct-us img{width:100%;}
+.cntct-us { padding: 10px;}
+
 @media (max-width: 991.98px) {
     .sticky-top.navbar-dark {
         position: relative;
@@ -243,7 +249,7 @@ h6,
     }
 
     .carousel-caption h1 {
-        font-size: 30px;
+        font-size: 22px;
         font-weight: 600 !important;
     }
 }
@@ -500,4 +506,8 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
+}
+
+@media screen and (max-width:767px){
+    .navbar-dark .navbar-brand img { width: 120px;}
 }
